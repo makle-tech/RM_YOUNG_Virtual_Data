@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wind Monitor Data</title>
+    <script>
+        function fetchData() {
+            fetch('/data')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('data').innerText = data;
+                });
+        }
+        setInterval(fetchData, 1000); // Update every second
+    </script>
+</head>
+<body>
+    <h1>Wind Monitor Data</h1>
+    <div id="data">Loading...</div>
+</body>
+</html>
