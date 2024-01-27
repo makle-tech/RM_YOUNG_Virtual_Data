@@ -17,4 +17,6 @@ Download the ZIP file via the releases page. Link: https://github.com/makle-brow
 ```
 and the program will pop up in a new window on your browser. 
 
-#
+# ISSUES / BUG REPORTS
+
+### Please fill this form out if you are having issues: https://forms.gle/1n21S9nSQyZRAaC76
